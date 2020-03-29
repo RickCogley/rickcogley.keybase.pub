@@ -8,4 +8,4 @@ I'm editing this `index.html` file manually, and need only to sync it and any as
 rsync -a --exclude '.git' /path/to/rickcogley.keybase.pub/ "/Volumes/Keybase (rcogley)/public/rickcogley/"
 ```
 
-The trailing slash in the source directory matters. 
+The trailing slash in the source directory, and the quotes around the target directory matter. 
